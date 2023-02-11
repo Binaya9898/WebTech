@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+
+}
+nav{
+    
+    background-color: rgb(95, 177, 150);
+    font-size: 28px;
+   
+
+}
+ ul{
+    margin-left: 200px;
+    text-decoration: none;
+    list-style: none;
+
+} 
+
+li a{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 40px;
+}
+table{
+    margin-left: 500px;
+    margin-top: 200px;
+}

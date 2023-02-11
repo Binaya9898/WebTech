@@ -1,0 +1,38 @@
+/* 
+.findDetails{
+    display: inline-block;
+    /* background-color: rgb(113, 167, 243); */
+
+  
+
+
+.left{
+    padding: 100px 100px 20px 20px;
+    width:500px;
+    height: 500px;
+    background-color: rgb(113, 167, 243);
+    display: inline-block;
+
+}
+
+.right{
+    padding: 100px 100px 20px 20px;
+
+    /* float: right; */
+    /* margin-left: 20px;
+    margin-top: 0px; */
+
+    /* padding: 20px; */
+
+    width:500px;
+    height: 500px;
+    background-color: rgb(113, 167, 243);
+    display: inline-block;
+
+}
+.head1{
+    background-color: rgb(113, 167, 243);
+
+    text-align: center;
+    color: aliceblue;
+}

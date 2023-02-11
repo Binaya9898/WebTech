@@ -1,0 +1,27 @@
+ul.a{
+    list-style: square;
+}
+
+ul.b{
+    list-style: upper-roman;
+}
+
+ul.c{
+    list-style: lower-alpha;
+}
+
+ul.d{
+    list-style: upper-alpha;
+}
+
+ol{
+    list-style-image: url("home.jpg");
+    list-style-position: inside;
+    /* size: 100px; */
+    /* height: 10px; */
+    margin: 10px 10px 500px 400px;
+   
+}
+ol.image{
+    height: 100px;
+}

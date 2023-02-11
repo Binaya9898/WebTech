@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="frm">
+      <fieldset>
+        <legend><b>Personal Details:</b></legend>
+        First Name: <input type="text" id="fname"  required> Middle Name:
+        <input type="text" id="Mname" /> Last Name:
+        <input type="text" id="Lname" /> <br /><br />
+        DOB: <input type="date" id="dob" /> <br /><br />
+        Age:<input type="number" id="age"><br><br>
+        Gender: Male<input type="radio" value="Male" name="Gender" id="Gender" />
+        Female<input type="radio" value="Female" name="Gender" id="Gender"/> 
+        Others<input type="radio" value="Others" name="Gender" id="Gender"/>
+      
+      </fieldset>
+
+      <br />
+      <fieldset>
+        <legend><b>Address</b></legend>
+        <br />
+        Nationality:
+        <input
+          type="checkbox"
+          id="nationality"
+          name="nationality"
+          value="Nepali"
+        />Nepali Nationality:
+        <input
+          type="checkbox"
+          id="nationality"
+          name="nationality"
+          value="Others"
+        />Others
+        <br />
+        <br />
+        Province:
+        <select name="province">
+          <option value="one">Bagmati</option>
+          <option value="two">Gandaki</option>
+          <option value="three">Karnali</option>
+          <option value="four">Lumbini</option>
+          <option value="five">Sagarmatha</option>
+          <option value="six">Mades</option>
+          <option value="seven">Seti</option>
+        </select>
+        <br><br>
+        District:
+        <input type="text"><br><br>
+        Ward :
+        <input type="number">
+
+
+      </fieldset>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+    <div id="cVitae" hidden >
+
+      <center>
+        <h1 id="cvtopic"></h1>
+      </center>
+      <label id="cname: ">Name</label><br>
+      <label id=" caddress :">Address</label><br>
+      <label id=" cphone :">Contact</label><br>
+      <label id="  cdob: ">DOB</label><br>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+    
+    
+  </body>
+</html>
